@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "chromepoint",
+    "description": "Save some attention",
+    "version": "1.0.0",
+    "minimum_chrome_version": "38",
+    "permissions": [
+        "contextMenus",
+        "tabs"
+    ],
+    "icons": {
+        "16": "chromepoint.png"
+    },
+    "background": {
+        "page": "background.html"
+    }
+}
